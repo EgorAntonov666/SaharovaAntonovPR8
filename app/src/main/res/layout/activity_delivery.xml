@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDelivery">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Оплата и доставка заказа
+" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Введите ваше имя" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Введите ваш контактный номер" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="email" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="102dp"
+                android:layout_height="29dp"
+                android:text="Доставка" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:text="на карте" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:text="Доставка" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:text="Самовывоз
+" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:text="Оплата" />
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:text="Наличные" />
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:text="Карта" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="228dp"
+                android:layout_height="30dp"
+                android:text="Итого к оплате:2450 рублей" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:text="Оплатить заказ" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sm_5b3f866b943e2" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
